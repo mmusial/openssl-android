@@ -73,6 +73,7 @@ LOCAL_C_INCLUDES += $(local_c_includes)
 LOCAL_SHARED_LIBRARIES += libcrypto
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE:= libssl
+LOCAL_LDLIBS := -lz
 include $(BUILD_SHARED_LIBRARY)
 
 #######################################

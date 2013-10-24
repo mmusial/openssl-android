@@ -533,7 +533,7 @@ LOCAL_SDK_VERSION := 9
 # Use the NDK prebuilt libz and libdl.
 LOCAL_LDFLAGS += -lz -ldl
 else
-LOCAL_SHARED_LIBRARIES += libz libdl
+LOCAL_LDFLAGS += -lz -ldl
 endif
 
 LOCAL_SRC_FILES += $(local_src_files)
