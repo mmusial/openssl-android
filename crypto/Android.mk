@@ -409,6 +409,7 @@ local_src_files := \
 	rsa/rsa_sign.c \
 	rsa/rsa_ssl.c \
 	rsa/rsa_x931.c \
+	rsa/rsa_depr.c \
 	sha/sha1_one.c \
 	sha/sha1dgst.c \
 	sha/sha256.c \
